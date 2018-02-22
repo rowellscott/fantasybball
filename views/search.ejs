@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% results.forEach((result) => { %>
+    <a href="<%= result.link%>">Link</a>
+    <iframe src="<%= result.link.replace("watch?v=", "embed/")%>"></iframe>
+    <p><%= result.link %></p>
+    <% }) %>
+  </body>
+</html>

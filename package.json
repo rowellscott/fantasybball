@@ -1,0 +1,20 @@
+{
+  "name": "ugtest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --debug ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "fantasydata-api": "^1.3.3",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5",
+    "ultimate-guitar-scraper": "^1.0.1",
+    "youtube-search": "^1.0.10"
+  }
+}
